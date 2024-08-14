@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#top-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#cash-box {
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#amount {
+    font-size: 24px;
+}
+
+#withdraw-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#circle {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative; /* Make position relative to use absolute positioning for children */
+}
+
+#claim-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#countdown-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#message {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
